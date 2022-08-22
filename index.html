@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="calculator-screen">
+                <h1 class="result"></h1>
+                <div class="calculation" >
+                    <!-- <p id="num1"></p>
+                    <p id="num2"></p>
+                    <p id="num3">0</p> -->
+                </div>
+            </div>
+            <div class="buttons">
+               <button class="btn" id="7" onclick="val(event,this.id)">7</button>
+               <button class="btn" id="8" onclick="val(event,this.id)">8</button>
+               <button class="btn" id="9" onclick="val(event,this.id)">9</button>
+               <button class="btn" id="divide" onclick="operaror(event,this.id)">÷</button>
+               <button class="btn" id="para">()</button>
+            </div>
+            <div class="buttons">
+               <button class="btn" id="4" onclick="val(event,this.id)">4</button>
+               <button class="btn"  id="5" onclick="val(event,this.id)">5</button>
+               <button class="btn" id="6" onclick="val(event,this.id)">6</button>
+               <button class="btn" id="x"  onclick="operaror(event,this.id)">*</button>
+               <button class="btn" id="root"  onclick="operaror(event,this.id)">√</button>
+            </div>
+            <div class="buttons">
+                <button class="btn" id="1" onclick="val(event,this.id)">1</button>
+                <button class="btn" id="2" onclick="val(event,this.id)">2</button>
+                <button class="btn" id="3" onclick="val(event,this.id)">3</button>
+                <button class="btn" id="subt">-</button>
+                <button class="btn" id="rem">%</button>
+            </div>
+            <div class="buttons">
+                <button class="btn" id="0" onclick="val(event,this.id)">0</button>
+                <button class="btn" id="dot">.</button>
+                <button class="btn" id="clear">C</button>
+                <button class="btn" id="add"  onclick="operaror(event,this.id)">+</button>
+                <button class="btn" id="equal" onclick="val(event,this.id)">=</button>
+            </div>
+        </div>
+    </div>
+  
+<script src="calculator.js"></script>
+</body>
+</html>
